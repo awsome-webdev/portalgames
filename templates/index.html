@@ -3,7 +3,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
-        
+        <header id="header">
+            <h1>Games</h1>
+        </header>
+        <button id="close-button" onclick="closeGame()">Close</button>
+        <iframe id="game-frame" src="">
+        </iframe>
+        <div id="games">
+            <div class="game">
+                <h3 class="game-name">Game 1</h3>
+            </div>
+        </div>
     </body>
 </html>
 <script src="{{ url_for('static', filename='script.js') }}"></script>
